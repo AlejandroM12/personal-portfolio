@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { About, Header, Home, Skills } from "@/components";
+import { About, Header, Home, Qualification, Skills } from "@/components";
 import { contextDarkMode } from "./context";
 import "./style/index.css";
 
@@ -24,6 +24,7 @@ const App = () => {
           <Home />
           <About />
           <Skills />
+          <Qualification />
         </main>
       </div>
     </contextDarkMode.Provider>
