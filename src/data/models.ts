@@ -13,3 +13,11 @@ export interface TypeNavbar {
     IsdarkMode: boolean;
     toggleIsDarkMode: () => void;
   }
+  export interface TypeMyProjects {
+    id: number;
+  name: string;
+  desc: string;
+  img: string;
+  link: string;
+  github: string
+  }
