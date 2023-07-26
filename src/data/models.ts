@@ -21,3 +21,8 @@ export interface TypeNavbar {
   link: string;
   github: string
   }
+  export interface TypeMessageIsSent {
+    sent: boolean;
+    setSent: React.Dispatch<React.SetStateAction<boolean>>;
+  }
+  

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import {
   About,
+  Contact,
   Header,
   Home,
   Projects,
@@ -33,6 +34,7 @@ const App = () => {
           <Skills />
           <Qualification />
           <Projects />
+          <Contact />
         </main>
       </div>
     </contextDarkMode.Provider>
