@@ -108,23 +108,6 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
-              {/* CARD 3 */}
-              <div className="contact__info">
-                <div className="contact__card">
-                  <i className="bx bxl-messenger conact__card-icon"></i>
-                  <h3 className="conact__card-title">Messenger</h3>
-                  <span className="contact__card-data">Alejandro Morel</span>
-                  <a
-                    href="https://m.me/aalejandromorel/"
-                    className="contact__button"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Write me{" "}
-                    <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
         </Slide>
