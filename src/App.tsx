@@ -7,6 +7,7 @@ import {
   Home,
   Projects,
   Qualification,
+  ScrollUp,
   Skills,
 } from "@/components";
 import { contextDarkMode } from "./context";
@@ -38,6 +39,7 @@ const App = () => {
           <Contact />
         </main>
         <Footer />
+        <ScrollUp />
       </div>
     </contextDarkMode.Provider>
   );
