@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import {
   About,
   Contact,
+  Footer,
   Header,
   Home,
   Projects,
@@ -36,6 +37,7 @@ const App = () => {
           <Projects />
           <Contact />
         </main>
+        <Footer />
       </div>
     </contextDarkMode.Provider>
   );

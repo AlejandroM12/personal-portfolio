@@ -1,5 +1,6 @@
 export * from './about';
 export * from './contact';
+export * from './footer';
 export * from './header';
 export * from './home';
 export * from './project';
